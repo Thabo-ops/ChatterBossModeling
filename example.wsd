@@ -1,0 +1,19 @@
+@startuml
+
+class Executive {
+ +name
+ +email
+ +requestAssistance()
+ +cancelRequest()
+}
+
+class PA {
+ +name
+ +email
+ +acceptRequest()
+ +declineRequest()
+}
+
+Executive -- PA
+
+@enduml
